@@ -19,7 +19,7 @@ git remote
 git remote -v
 	: 원격으로 연결된 레포의 리스트를 보여주는 명령어
 
-
+asd
 
 
 용어
