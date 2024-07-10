@@ -1,0 +1,29 @@
+깃 개인 원격 레포
+본인이 쓴 코드 올리는 법
+1. 초기화(initialize)
+	git init
+2. 개인 계정 세팅
+	git config --global user.name "닉네임"
+	git config --global user.email "본인이메일"
+
+기본 명령어
+git status
+	: 현재 레포지토리 상태를 확인한 명령어
+git add .
+	: 모든 변경사항을 staging 하는 명령어
+	: . 대신에 파일이름을 직접 입력해도 된다.
+git commit -m "변경사항에 대한 설명을 적는 부분"
+	: -m 메시지를 남긴다는 뜻
+git remote
+	: 원격 레포 관련 명령어
+git remote -v
+	: 원격으로 연결된 레포의 리스트를 보여주는 명령어
+
+
+
+
+용어
+레포지토리 : 저장소
+staging : 커밋을 하기 전에 커밋할 대상을 선정하는 과정
+commit : 변경사항을 확정지은 하나의 버전을 가리킨다
+push : 로컬 레포의 커밋 내용을 원격 레포에 적용시켜 업데이트하는 것
